@@ -6,34 +6,25 @@ const inquirer = require('inquirer');
 inquirer.prompt([
     {
         type: 'input',
-        name: 'Name',
+        name: 'name',
         message: 'What is your name?',
     },
 
     {
-        type: 'checkbox',
-        message: 'What languages do you know?',
-        name: 'Languages',
-        choices: [
-            'HTML', 'CSS', 'JavaScript', 'Node.js'
-        ],
-    },
-
-    {
         type: 'input',
-        name: 'Title',
+        name: 'title',
         message: 'What is the title of the project?',
     },
 
     {
         type: 'input',
-        name: 'Description',
+        name: 'description',
         message: 'Please enter a short description of the project: Motivation, Why built?, What problems solved?, and What learned?',
     },
 
     {
         type: 'checkbox',
-        name: 'Table of Contents',
+        name: 'tableContents',
         message: 'Please enter the table of contents (Optional).',
         choices: [
             'None', 'Installation', 'Usage', 'Credits', 'License', 'Badges', 'Features', 'How to Contribute', 'Tests'
@@ -42,8 +33,47 @@ inquirer.prompt([
 
     {
         type: 'input',
-        name: 'Installation',
-        message: 'What steps are required to install the project?',
+        name: 'installation',
+        message: 'What steps are required to install the project? (Optional)',
+    },
+
+    {
+        type: 'input',
+        name: 'usage',
+        message: 'Please add Image folder and Screenshots of the project (Use a relative filepath in the repo with ![alt text](assets/images/screenshot.png) syntax).',
+    },
+
+    {
+        type: 'input',
+        name: 'credits',
+        message: 'Please list collaborators, third party assets that require attribution or tutorial links.',
+    },
+
+    {
+        type: 'checkbox',
+        name: 'license',
+        message: 'Please choose a license (Optional).',
+        choices: [
+            'None', 'MIT', 'APACHE2.0', 'Boost1.0', 'MPL2.0', 'BSD2', 'BSD3', 'Other'
+        ],
+    },
+
+    {
+        type: 'input',
+        name: 'features',
+        message: 'Please list any features found in the project (Optional).',
+    },
+
+    {
+        type: 'input',
+        name: 'contribution',
+        message: 'Please list the guidelines on how you would like others to contribute to the project (Optional).',
+    },
+
+    {
+        type: 'input',
+        name: 'tests',
+        message: 'Please list tests and provide examples on how to run them (Optional).',
     },
 ])
 //Then method requires a callback arrow function. Split and Join replaces space with dash.
