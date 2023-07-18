@@ -27,7 +27,7 @@ inquirer.prompt([
         name: 'tableContents',
         message: 'Please enter the table of contents (Optional).',
         choices: [
-            'None', 'Installation', 'Usage', 'Credits', 'License', 'Badges', 'Features', 'How to Contribute', 'Tests'
+            'None', 'Installation', 'Usage', 'Credits', 'License', 'Badges', 'Features', 'How to Contribute', 'Tests', 'Questions'
         ],
     },
 
@@ -75,6 +75,42 @@ inquirer.prompt([
         name: 'tests',
         message: 'Please list tests and provide examples on how to run them (Optional).',
     },
+
+    {
+        type: 'input',
+        name: 'questions',
+        message: 'What is the URL link to the DEPLOYED SITE?',
+    },
+
+    {
+        type: 'input',
+        name: 'questions',
+        message: 'What is the URL link to the Github REPOSITORY?',
+    },
+
+    {
+        type: 'input',
+        name: 'questions',
+        message: 'What is your Github USER NAME?',
+    },
+
+    {
+        type: 'input',
+        name: 'questions',
+        message: 'What is the URL link to your Github PROFILE?',
+    },
+
+    {
+        type: 'input',
+        name: 'questions',
+        message: 'What is your email address?',
+    },
+
+    {
+        type: 'input',
+        name: 'questions',
+        message: 'Do you have additional questions? Please email me at ****@gmail.com.',
+    },
 ])
 //Then method requires a callback arrow function. Split and Join replaces space with dash.
 .then((data) => {
@@ -86,3 +122,13 @@ inquirer.prompt([
         err ? console.log(err) : console.log('Success! Thank you for your submitted answers.')
     );
 });
+
+//Initializes app: displays message to let user know that file is being created
+//Folder is created containing READme file.
+/*function init() {
+    inquirer.prompt(questions).then((responses) => {
+        console.log('Now creating Professional READme file!');
+        writeToFile('./dist/READme.md', generateMarkdown({ ...responses }));
+    });
+}
+init();*/
