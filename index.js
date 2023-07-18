@@ -1,6 +1,8 @@
 //Included packages needed for this application.
 const fs = require('fs');
 const inquirer = require('inquirer');
+const badmath = require('badmath');
+const badgemaker = require('badge-maker');
 
 //Question prompts for user input given as data arrays.
 inquirer.prompt([
@@ -40,7 +42,7 @@ inquirer.prompt([
     {
         type: 'input',
         name: 'usage',
-        message: 'Please add Image folder and Screenshots of the project (Use a relative filepath in the repo with ![alt text](assets/images/screenshot.png) syntax).',
+        message: 'Please add Image folder and Screenshots or Video of the project (Use a relative filepath in the repo with ![alt text](assets/images/screenshot.png) syntax).',
     },
 
     {
@@ -61,13 +63,13 @@ inquirer.prompt([
     {
         type: 'input',
         name: 'features',
-        message: 'Please list any features found in the project (Optional).',
+        message: 'If the project has many features, please list them here (Optional).',
     },
 
     {
         type: 'input',
         name: 'contribution',
-        message: 'Please list the guidelines on how you would like others to contribute to the project (Optional).',
+        message: 'If you would like to contribute to the project, please vist this site for guidelines (https://www.contributor-covenant.org/). (Optional).',
     },
 
     {
@@ -78,37 +80,37 @@ inquirer.prompt([
 
     {
         type: 'input',
-        name: 'questions',
+        name: 'questions1',
         message: 'What is the URL link to the DEPLOYED SITE?',
     },
 
     {
         type: 'input',
-        name: 'questions',
+        name: 'questions2',
         message: 'What is the URL link to the Github REPOSITORY?',
     },
 
     {
         type: 'input',
-        name: 'questions',
+        name: 'questions3',
         message: 'What is your Github USER NAME?',
     },
 
     {
         type: 'input',
-        name: 'questions',
+        name: 'questions4',
         message: 'What is the URL link to your Github PROFILE?',
     },
 
     {
         type: 'input',
-        name: 'questions',
+        name: 'questions5',
         message: 'What is your email address?',
     },
 
     {
         type: 'input',
-        name: 'questions',
+        name: 'questions6',
         message: 'Do you have additional questions? Please email me at ****@gmail.com.',
     },
 ])
