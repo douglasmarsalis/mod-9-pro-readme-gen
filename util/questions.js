@@ -1,4 +1,4 @@
-//For user input given as data arrays.
+//For user input, Given as data array.
 const questions = [
     {
         type: 'input',
@@ -23,7 +23,7 @@ const questions = [
         name: 'tableContents',
         message: 'Please enter the table of contents (Optional).',
         choices: [
-            'None', 'Installation', 'Usage', 'Credits', 'License', 'Badges', 'Features', 'How to Contribute', 'Tests', 'Questions'
+            'None', 'Installation', 'Usage', 'Credits', 'License', 'Features', 'How to Contribute', 'Tests', 'Questions'
         ],
     },
 
@@ -50,7 +50,7 @@ const questions = [
         name: 'license',
         message: 'Please choose a license (Optional).',
         choices: [
-            'None', 'MIT', 'APACHE2.0', 'Boost1.0', 'MPL2.0', 'BSD2', 'BSD3', 'Other'
+            'None', 'MIT', 'APACHE2.0', 'GPL3.0', 'BSD2', 'BSD3', 'BDS4', 'Other'
         ],
     },
 
