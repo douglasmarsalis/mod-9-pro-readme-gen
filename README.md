@@ -1,5 +1,7 @@
 # mod-9-pro-readme-gen
 
+## [![License: APACHE2.0](https://img.shields.io/badge/License:_MIT-orange)](https://opensource.org/license/mit/)
+
 ## Description
 * For this project, I will create an application that will enable a user to create a Professional README.md file.
 * This application will feature Node.js and use npm dependencies such as inquirer.
@@ -33,6 +35,7 @@ THEN I am taken to the corresponding section of the README
 * Code how to: https://egghead.io/lessons/javascript-how-to-write-a-javascript-library-adding-badges-to-your-readme
 * npm dependencies: https://www.npmjs.com/
 * Badge design: https://shields.io/badges/static-badge
+* Open source license: https://opensource.org/ 
 
 ## Link to Deployed Site
 
