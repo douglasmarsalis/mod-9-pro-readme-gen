@@ -42,7 +42,8 @@ function generateMarkdown(data) {
     ## License 
     License for this project: ${data.license}
     * If you need help on choosing a license, please visit
-    this website for more information: https://choosealicense.com/
+    this website for more information: 
+    https://gist.github.com/nicolasdao/a7adda51f2f185e8d2700e1573d8a633 
 
 ---
 

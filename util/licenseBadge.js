@@ -14,7 +14,7 @@ function licenseBadge(value) {
         return "![License: BSD3](https://img.shields.io/badge/License:_BSD3-yellow)";
     }   else if (value === "BSD4") {
         return "![License: BSD4](https://img.shields.io/badge/License:_BSD4-red)";
-    }   else (value === "Other") {
+    }   else {
         return "![License: Other](https://img.shields.io/badge/License:_Other-pink)";
     }   
 }
