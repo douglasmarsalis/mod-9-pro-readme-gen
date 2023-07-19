@@ -1,0 +1,68 @@
+
+
+    # Douglas Eric Marsalis
+
+      mod-9-pro-readme-gen
+
+      ![License: Other](https://img.shields.io/badge/License:_Other-pink)
+
+      This app will generate a READme file.
+
+---
+
+    ## [Table of Contents](#tableContents)
+    1. [Installation](#installation)
+    2. [Usage](#usage)
+    3. [Credits](#credits)
+    4. [License](#license)
+    5. [Features](#features)
+    6. [How to Contribute](#contribution)
+    7. [Tests](#tests)
+    8. [User Information](#user-info)
+
+---
+
+    ## Instalation (How to get the environment running)
+    npm init, npm inquirer, badgemaker, etc
+    
+---
+
+    ## Usage (Screenshots and Videos)
+    None
+
+---
+
+    ## Credits (Sources)
+    blah blah
+
+--- 
+
+    ## License 
+    License for this project: MIT
+    * If you need help on choosing a license, please visit
+    this website for more information: 
+    https://gist.github.com/nicolasdao/a7adda51f2f185e8d2700e1573d8a633 
+
+---
+
+    ## Features 
+    This creates an amazing READme
+
+---
+
+    ## Contribution
+    * To contribute to this application, 
+
+---
+
+    ## Tests
+    No testing was done
+
+---
+
+    ## User Information
+    * Deployed site URL: https://blah
+    * Github repository URL: https://blahblah
+    * Github user name: douglas
+    * Github profile URL: https://here
+    * User email address: ****@gmail.com
