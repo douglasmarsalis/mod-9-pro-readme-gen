@@ -39,7 +39,7 @@ THEN I am taken to the corresponding section of the README
 
 ## Link to Deployed Site
 
-https://douglasmarsalis.github.io/mod-9-pro-readme-gen/
+None this time.
 
 ## Link to Github Repository
 
@@ -47,6 +47,11 @@ https://github.com/douglasmarsalis/mod-9-pro-readme-gen
 
 ## Screenshots and Video
 
+![Video of my webpage](https://drive.google.com/file/d/1axmsdkWMF5CiOs34w5ZDrkhQwvqNulYN/view)
+
+![Screen shot of my markdown](images/Screenshot_markdown.png)
+
+![Screen shot of my Readme](images/Screenshot_proReadmeGen.png)
 
 ## License
 MIT License

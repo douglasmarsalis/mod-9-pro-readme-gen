@@ -46,11 +46,11 @@ const questions = [
     },
 
     {
-        type: 'checkbox',
+        type: 'list',
         name: 'license',
         message: 'Please choose a license (Optional).',
         choices: [
-            'None', 'MIT', 'APACHE2.0', 'GPL3.0', 'BSD2', 'BSD3', 'BDS1', 'Other'
+            'None', 'MIT', 'APACHE2.0', 'GPL3.0', 'BSD2', 'BSD3', 'BDS1'
         ],
     },
 

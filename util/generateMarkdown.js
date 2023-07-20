@@ -1,73 +1,79 @@
-//This function will generate the markdown inside the READme file
+//This function will generate the markdown inside a new READme file
 function generateMarkdown(data) {
     return `
 
-    # ${data.name}
+# ${data.name}
 
-      ${data.title}
+${data.title}
 
-      ${data.licenseBadge}
+${data.licenseBadge}
 
-      ${data.description}
-
----
-
-    ## [Table of Contents](#tableContents)
-    1. [Installation](#installation)
-    2. [Usage](#usage)
-    3. [Credits](#credits)
-    4. [License](#license)
-    5. [Features](#features)
-    6. [How to Contribute](#contribution)
-    7. [Tests](#tests)
-    8. [User Information](#user-info)
+${data.description}
 
 ---
 
-    ## Instalation (How to get the environment running)
-    ${data.installation}
-    
+## [Table of Contents]
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [Credits](#credits)
+4. [License](#license)
+5. [Features](#features)
+6. [How to Contribute](#contribution)
+7. [Tests](#tests)
+8. [User Information](#user%20information)
+
 ---
 
-    ## Usage (Screenshots and Videos)
-    ${data.usage}
+## Instalation
+${data.installation}
 
 ---
 
-    ## Credits (Sources)
-    ${data.credits}
+## Usage
+${data.usage}
+
+---
+
+## Credits 
+${data.credits}
 
 --- 
 
-    ## License 
-    License for this project: ${data.license}
-    * If you need help on choosing a license, please visit
-    this website for more information: 
-    https://gist.github.com/nicolasdao/a7adda51f2f185e8d2700e1573d8a633 
+## License 
+License for this project: ${data.license}
+* If you need help on choosing a license, please visit
+this website for more information: https://opensource.org/
 
 ---
 
-    ## Features 
-    ${data.features}
+## Features 
+${data.features}
 
 ---
 
-    ## Contribution
-    * To contribute to this application, 
+## Contribution
+* To contribute to this application:
+- First, create a fork for the repo.
+- Second, create a personal branch (git checkout -b branchName).
+- Third, commit your new branch (git commit -m "Add details").
+- Fourth, push your personal branch (git push).
+- Fifth, create a pull request.
+
+* I will then review your code and make a merge.
 
 ---
 
-    ## Tests
-    ${data.tests}
+## Tests
+${data.tests}
 
 ---
 
-    ## User Information
-    * Deployed site URL: ${data.userInfo1}
-    * Github repository URL: ${data.userInfo2}
-    * Github user name: ${data.userInfo3}
-    * Github profile URL: ${data.userInfo4}
-    * User email address: ${data.userInfo5}
+## User Information
+* Deployed site URL: ${data.userInfo1}
+* Github repository URL: ${data.userInfo2}
+* Github user name: ${data.userInfo3}
+* Github profile URL: ${data.userInfo4}
+* User email address: ${data.userInfo5}
 `;
 }
 
