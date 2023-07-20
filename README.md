@@ -47,6 +47,8 @@ https://github.com/douglasmarsalis/mod-9-pro-readme-gen
 
 ## Screenshots and Video
 
+[Professional Readme Generator.webm](https://github.com/douglasmarsalis/mod-9-pro-readme-gen/assets/112460009/32d3b4ee-d162-4615-8c00-1aeef929151d)
+
 ![Screen shot of my markdown](images/Screenshot_markdown.png)
 
 ![Screen shot of my Readme](images/Screenshot_proReadmeGen.png)
